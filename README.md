@@ -1,7 +1,7 @@
 # img2d6-cuda
 
 This project  implements an program written in CUDA that transforms an input image into a grid of D6 dices, 
-where each die face represents a block of the original image. The program uses the CUDA parallel computing framework to process the image efficiently.
+where each dice face represents a block of the original image. The program uses the CUDA parallel computing framework to process the image efficiently.
 
 To compile: 
   - nvcc -o image2d6 main.cu
